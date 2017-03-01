@@ -7,9 +7,9 @@ package es.codelines.mascotasmenufragments.pojo;
 public class Foto {
 
     public int foto;
-    public String raiting;
+    public int raiting;
 
-    public Foto(int foto, String raiting) {
+    public Foto(int foto, int raiting) {
         this.foto = foto;
         this.raiting = raiting;
     }
@@ -22,11 +22,11 @@ public class Foto {
         this.foto = foto;
     }
 
-    public String getRaiting() {
+    public int getRaiting() {
         return raiting;
     }
 
-    public void setRaiting(String raiting) {
+    public void setRaiting(int raiting) {
         this.raiting = raiting;
     }
 }

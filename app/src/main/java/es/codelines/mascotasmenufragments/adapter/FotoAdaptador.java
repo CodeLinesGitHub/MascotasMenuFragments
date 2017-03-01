@@ -37,7 +37,7 @@ public class FotoAdaptador extends RecyclerView.Adapter<FotoAdaptador.FotoViewHo
     public void onBindViewHolder(FotoViewHolder fotoViewHolder, int position) {
         final Foto foto = fotos.get(position);
         fotoViewHolder.imgvPerfil.setImageResource(foto.getFoto());
-        fotoViewHolder.tvPerfil.setText(foto.getRaiting());
+        fotoViewHolder.tvPerfil.setText(String.valueOf(foto.getRaiting()));
     }
 
     @Override

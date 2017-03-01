@@ -56,15 +56,15 @@ public class PerfilFragment extends Fragment {
     public void inicializarListaMascotas(){
         foto = new ArrayList<>();
 
-        foto.add(new Foto(R.drawable.gato, "3"));
-        foto.add(new Foto(R.drawable.gato, "6"));
-        foto.add(new Foto(R.drawable.gato, "2"));
-        foto.add(new Foto(R.drawable.gato, "9"));
-        foto.add(new Foto(R.drawable.gato, "8"));
-        foto.add(new Foto(R.drawable.gato, "1"));
-        foto.add(new Foto(R.drawable.gato, "0"));
-        foto.add(new Foto(R.drawable.gato, "5"));
-        foto.add(new Foto(R.drawable.gato, "3"));
+        foto.add(new Foto(R.drawable.gato, 3));
+        foto.add(new Foto(R.drawable.gato, 6));
+        foto.add(new Foto(R.drawable.gato, 2));
+        foto.add(new Foto(R.drawable.gato, 9));
+        foto.add(new Foto(R.drawable.gato, 8));
+        foto.add(new Foto(R.drawable.gato, 1));
+        foto.add(new Foto(R.drawable.gato, 0));
+        foto.add(new Foto(R.drawable.gato, 5));
+        foto.add(new Foto(R.drawable.gato, 3));
 
     }
 
